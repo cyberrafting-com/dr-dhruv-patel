@@ -1,0 +1,8 @@
+[06-May-2024 21:26:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/drdhruvpatelorth/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/drdhruvpatelorth/public_html/config/database.php on line 18
+[06-May-2024 21:26:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/drdhruvpatelorth/public_html/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/drdhruvpatelorth/public_html/config/database.php on line 18

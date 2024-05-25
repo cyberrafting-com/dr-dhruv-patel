@@ -1,0 +1,69 @@
+<Files ~ "^.*\.([Ee][Nn][Vv])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+Redirect 301 /treatmeant/arthroscopy-surgery https://www.drdhruvpatelortho.com/treatment/arthroscopy-surgery
+
+Redirect 301 /treatmeant/trauma-fracture-surgery https://www.drdhruvpatelortho.com/treatment/trauma-fracture-surgery
+
+Redirect 301 /treatmeant/joint-replacement-surgery https://www.drdhruvpatelortho.com/treatment/joint-replacement-surgery
+
+Redirect 301 /treatment/joint-pain https://www.drdhruvpatelortho.com/treatment/joint-pain-clinic
+
+Redirect 301 /treatmeant/sports-injuries https://www.drdhruvpatelortho.com/treatment/sports-injuries
+
+Redirect 301 /gallery/gallery https://www.drdhruvpatelortho.com/gallery
+
+Redirect 301 /treatmeant/spine-surgery https://www.drdhruvpatelortho.com/treatment/spine-surgery
+
+Redirect 301 /about-doctor https://www.drdhruvpatelortho.com/about
+
+Redirect 301 /arthroscopy-surgery.php https://www.drdhruvpatelortho.com/treatment/arthroscopy-surgery
+
+Redirect 301 /spine-surgery.php https://www.drdhruvpatelortho.com/treatment/spine-surgery
+
+Redirect 301 /joint-pain-clinic.php https://www.drdhruvpatelortho.com/treatment/joint-pain-clinic
+
+Redirect 301 /trauma-and-fracture-surgery.php https://www.drdhruvpatelortho.com/treatment/trauma-fracture-surgery
+
+Redirect 301 /joint-replacement-surgery.php https://www.drdhruvpatelortho.com/treatment/joint-replacement-surgery
+
+Redirect 301 /pain-management.php https://www.drdhruvpatelortho.com/treatment/joint-pain-clinic
+
+Redirect 301 /contact.php https://www.drdhruvpatelortho.com/contact-us
+
+Redirect 301 /spine-surgery.html https://www.drdhruvpatelortho.com/treatment/spine-surgery
+
+Redirect 301 /testimonial.html https://www.drdhruvpatelortho.com/#testimonial
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
