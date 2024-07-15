@@ -61,6 +61,8 @@ Redirect 301 /spine-surgery.html https://www.drdhruvpatelortho.com/treatment/spi
 
 Redirect 301 /testimonial.html https://www.drdhruvpatelortho.com/#testimonial
 
+Redirect 301 /about.php https://www.drdhruvpatelortho.com/about
+
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php80” package as the default “PHP” programming language.
 <IfModule mime_module>

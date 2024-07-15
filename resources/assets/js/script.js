@@ -1,3 +1,24 @@
+// FAQ
+
+// select all accordion items
+const accItems = document.querySelectorAll(".accordion__item");
+
+// add a click event for all items
+accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
+
+function toggleAcc() {
+    // remove active class from all items exept the current item (this)
+    accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null);
+
+    // toggle active class on current item
+    if (this.classList != "accordion__item--active") {
+        this.classList.toggle("accordion__item--active");
+    }
+}
+
+
+
+
 (function($) {
 
     "use strict";
@@ -26,15 +47,15 @@
             }
         }
     }
-    
-     // Scroll to top functionality
+
+    // Scroll to top functionality
     $('.scroll-to-top').click(function(e) {
         e.preventDefault();
-        $('html, body').animate({scrollTop: 0}, '300');
+        $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
     headerStyle();
-scrollTop();
+    scrollTop();
 
     //Submenu Dropdown Toggle
     if ($('.main-header li.dropdown ul').length) {
@@ -158,7 +179,7 @@ scrollTop();
         }).parent().addClass('active');
         // $(this).addClass('active');
 
-    })      
+    })
 
 
     //Single Item Carousel
@@ -303,10 +324,3 @@ scrollTop();
 
 
 //  start caouesel
-
-
-
-// categories
-
-
-

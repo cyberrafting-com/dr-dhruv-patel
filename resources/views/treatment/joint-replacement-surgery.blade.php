@@ -1,4 +1,4 @@
-@php($title = "Best Joint Replacement Surgeon in Navi Mumbai, Vashi")
+@php($title = "Best Joint Knee Replacement Surgeon in Navi Mumbai, Vashi & Belapur - Dr. Dhruv Patel")
 @section('meta_desc')Dr. Dhruv Patel is the best Joint Replacement Surgeon in Navi Mumbai, Vashi & Belapur for relieving pain and improving hip, knee, and shoulder joints replacements. @endsection
 
 @section('meta_keywords')Best Joint Replacement doctor in Navi Mumbai, best orthopaedic and Joint Knee Replacement doctor in Navi Mumbai,
