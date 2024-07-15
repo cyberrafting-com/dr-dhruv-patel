@@ -212,6 +212,42 @@ li {
 }
 
 
+/*About list*/
+
+.list-style-one-set {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.list-style-one-set li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 1px;
+    color: #3e3e3e;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-style-one-set li:before {
+    position: absolute;
+    content: '\f106';
+    left: 0px;
+    top: 2px;
+    color: #55b6c7;
+    font-size: 18px;
+    font-family: "Flaticon";
+}
+
+.list-style-one-set {
+    padding-left: 0px;
+}
+
+
+/*About list end*/
+
+
 /*List Style Two*/
 
 .list-style-two {
@@ -3030,7 +3066,7 @@ img {
 
 .page-title {
     position: relative;
-    padding: 48px 0px 48px;
+    padding: 33px 0px 21px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -3183,10 +3219,14 @@ img {
 
 .about-section .content-column h2 {
     position: relative;
-    color: #415f8f;
-    font-size: 20px;
+    color: #2e2e2e;
+    font-size: 30px;
     font-weight: 600;
+    padding-left: 7px;
     line-height: 30px;
+    border-radius: 3px;
+    /* width: 19%; */
+    border-left: 4px solid #9bc23a;
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
 }
@@ -3508,6 +3548,7 @@ img {
 .sidebar-widget {
     position: relative;
     margin-bottom: 30px;
+    padding-top: 55px;
 }
 
 
@@ -3831,7 +3872,7 @@ img {
 
 .services-single h3 {
     position: relative;
-    color: #242424;
+    color: #004e9c;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 22px;
@@ -7469,6 +7510,7 @@ ul.list i {
 
 .star-set i {
     color: #eb9911;
+    font-size: 19px;
 }
 
 .review-txt p {
@@ -7699,7 +7741,7 @@ span.doc-name {
     content: "";
     grid-column: 1;
     grid-row: 1 / span 20;
-    background: rgb(225, 225, 225);
+    background: rgb(205 233 255);
     border-radius: calc(var(--line-w) / 2);
 }
 
@@ -7883,7 +7925,7 @@ span.doc-name {
 .title span {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #87b616;
+    color: #ba4518;
     font-size: 20px;
 }
 
@@ -8034,7 +8076,7 @@ span.doc-name {
     background: linear-gradient(90deg, rgba(178, 223, 220, 1) 20%, rgba(219, 229, 230, 1) 64%);
 }
 .page-title:before {
-    background: linear-gradient(90deg, rgba(178, 223, 220, 1) 20%, rgba(219, 229, 230, 1) 64%);
+    background: linear-gradient(5deg, rgb(223 233 207) 20%, rgb(252 248 248) 64%);
 }
 li:before {
     color: #99cc2b!important;
@@ -8044,6 +8086,8 @@ li:before {
 }
 .treatment-content li span {
     font-weight: 500;
+    color: #1f2525;
+    font-size: 19px;
     font-family: 'Roboto', sans-serif;
 }
 .treatment-content p span {
@@ -8106,10 +8150,14 @@ h3.foot-logo-txt {
 }
 .title-img {
     padding-bottom: 20px;
+    font-size: 26px;
+    color: #1b5378;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
 }
 .page-title h2 {
     position: relative;
-    color: #065378;
+    color: #507204;
     font-size: 29px;
     font-weight: 700;
     line-height: 1em;
@@ -8228,8 +8276,9 @@ label {
     background: #fff;
     padding: 30px;
     border-radius: 10px;
-    /*position: absolute;*/
+    /* position: absolute; */
     
+    min-height: 583px;
     bottom: 0;
     z-index: 1;
     box-shadow: 0 0 20px -15px #030380;
@@ -8292,7 +8341,7 @@ label {
 /* membuat shadow untuk service */
 .approch-set {
     padding-top: 60px;
-    background: #fcfcfc;
+    /*background: #fcfcfc;*/
 }
 .education-set {
     padding-bottom: 40px;
@@ -8371,6 +8420,7 @@ label {
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
+    min-height: 193px;
     border: 1px solid #f2f8f9;
 }
 .card2:hover {
@@ -8398,7 +8448,9 @@ label {
     transform: scale(2.15);
 }
 .card2 h3 {
-    color: #000;
+    color: #415fb5;
+    font-weight: 700;
+    font-size: 20px;
 }
 .fa-brands {
     height: 43px;
@@ -8411,7 +8463,7 @@ label {
     background: linear-gradient(44deg, rgb(122 155 40) 63%, rgb(164 205 63) 93%);
 }
 .degree--list li {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     margin-left: 21px;
     color: #065378;
@@ -8434,6 +8486,10 @@ ul.degree--list {
     margin-bottom: 10px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
+.review-txt-1 h3 {
+    font-weight: 700;
+    padding: 10px 0px;
+}
 .review-txt-1 {
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
     padding: 10px;
@@ -8447,7 +8503,312 @@ ul.degree--list {
 }
 
 /*about specailization end*/
+.meet-degree--list li {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 21px;
+    border-bottom: 1px solid #98b15e4a;
+    padding: 5px 0px;
+    color: #090908;
+    line-height: 30px;
+    font-family: 'Roboto', sans-seri;
+}
+.meet-degree--list li i {
+    margin-left: -21px;
+    color: #b44018;
+}
+ul.meet-degree--list {
+    padding-left: 0px;
+}
+
+/*FAQ*/
+span.accordion__caption {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.accordion {
+    width: 100%;
+    padding: 1.2rem 0;
+    border-radius: 1rem;
+    background: white;
+    /*   box-shadow: 0 0 5rem lightgrey; */
+}
+.accordion__heading {
+    margin-bottom: 1rem;
+    padding: 0 1.4rem;
+}
+.accordion__item:not(:last-child) {
+    border-bottom: 1px solid lightgrey;
+}
+.accordion__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    background: white;
+    border: none;
+    outline: none;
+    color: var(--color-text);
+    font-size: 1.2rem;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.accordion__btn:hover {
+    color: var(--color-purple);
+    background: hsl(248, 53%, 97%);
+}
+.accordion__item--active .accordion__btn {
+    color: var(--color-purple);
+    border-bottom: 2px solid var(--color-purple);
+    background: hsl(78deg 72% 93%);
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.fa-lightbulb {
+    padding-right: 1rem;
+}
+.accordion__icon {
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+    opacity: 0.9;
+    color: #be0000;
+    font-size: 18px;
+}
+.accordion__item--active .accordion__icon {
+    transform: rotate(135deg);
+}
+.accordion__content {
+    font-weight: 300;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    color: var(--color-text-muted);
+    transform: translateX(16px);
+    transition: max-height 0.5s ease, opacity 0.5s, transform 0.5s;
+}
+.accordion__content p {
+    padding: 1rem 1.8rem;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.accordion__item--active .accordion__content {
+    opacity: 1;
+    transform: translateX(0px);
+    max-height: 100vh;
+}
+
+/*FAQ end*/
+.list-style-one span.bold-set {
+    position: relative;
+    color: #040404;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.doc--img img {
+    /*border-radius:50%;*/
+    
+    padding: 5px;
+    background: linear-gradient(90deg, rgb(81 224 241 / 39%) 0%, rgb(201 253 151 / 37%) 65%);
+}
+.meet-doc {
+    background: linear-gradient(5deg, rgb(223 233 207 / 19%) 20%, rgb(252 248 248) 64%);
+    padding: 23px 0px;
+    border: 5px solid #a4ce461a;
+    border-radius: 20px;
+}
+.doc-meet-content h3 {
+    margin-bottom: 10px;
+}
+.know-more-btn a {
+    padding: 5px 15px 5px;
+    font-size: 15px;
+    border-radius: 9px;
+    font-weight: 600;
+    width: 100%;
+    color: #fbfeff;
+    background: aliceblue;
+    background: linear-gradient(126deg, rgb(36 106 175) 63%, rgb(26 96 166) 64%);
+    line-height: 30px;
+    font-family: 'Roboto', sans-seri;
+}
+.know-more-btn a:hover {
+    color: #fbfeff;
+}
+.know-more-btn {
+    margin: 9px 0px 0px;
+    width: 100%;
+    display: flex;
+}
+.know-more-btn-set a {
+    padding: 5px 15px 5px;
+    font-size: 15px;
+    border-radius: 9px;
+    font-weight: 600;
+    width: 100%;
+    color: #fbfeff;
+    background: aliceblue;
+    background: linear-gradient(126deg, rgb(152 177 94) 63%, rgb(130 157 70) 64%);
+    line-height: 30px;
+    font-family: 'Roboto', sans-seri;
+}
+.know-more-btn-set a:hover {
+    color: #fbfeff;
+}
+.know-more-btn-set {
+    margin: 9px 0px 0px;
+    width: 100%;
+    display: flex;
+}
+
+/* meet section css */
+.know-more-btn i {
+    float: right;
+    padding-top: 8px;
+}
+.main-set {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 30px;
+}
+.why--content-txt {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* min-height: 583px; */
+    
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform .8s;
+    background: linear-gradient(16deg, rgb(234 253 255) 0%, rgb(255 255 255) 65%);
+    margin-bottom: 30px;
+    margin-top: 31px;
+    border: 1px solid #c0d986;
+}
+.why--content-txt h4 {
+    height: auto;
+    width: 80%;
+    font-size: 22px;
+    margin: 29px auto;
+    /* background: #fff; */
+    
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .4px;
+    color: #415f9f;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+.why--content-txt h4::before {
+    background: linear-gradient(to right, #007bff, #fff);
+    left: -5px;
+    bottom: -5px;
+}
+.why--content-txt h4::after {
+    /* background: linear-gradient(to right, #fff, #007bff); */
+    
+    right: -5px;
+    top: -5px;
+    content: '';
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+}
+.why--icon {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: #fff;
+    border: 3px solid #a1defb3d;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.why-list-style li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.why-list-style li:before {
+    position: absolute;
+    content: '\f106';
+    left: 0px;
+    top: 2px;
+    color: #55b6c7;
+    font-size: 18px;
+    font-family: "Flaticon";
+}
+.why-sub-head h3 {
+    padding-bottom: 20px
+}
+.why-sub-head p {
+    padding-bottom: 20px
+}
+.faq--set h2 {
+    padding: 15px 9px;
+    background: #0a98db36;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.card---set {
+    display: flex;
+}
+.benefits--set img {
+    padding: 5px;
+    border: 1px solid #bcda75;
+}
+.list-style-one .type-knee {
+    width: 13%;
+    margin-right: 20px;
+}
+.total--knee {
+    display: flex;
+    background: antiquewhite;
+    background: linear-gradient(9deg, rgb(216 235 174 / 58%) 0%, rgb(255 255 255) 65%);
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #c3e6f691;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+/* meet section css end */
 @media only screen and (max-width: 767px) {
+    .sidebar-widget {
+        position: relative;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+    
+    .list-style-one .type-knee {
+        width: 29%;
+        margin-right: 20px;
+    }
+    
     .welcome-section .content-column h1 {
         font-size: 25px;
         padding-top: 20px;
