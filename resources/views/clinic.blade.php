@@ -1,8 +1,3 @@
-
-
-
-
-
 @php($title = "Images of Dr. Dhruv Patel's Orthocare Clinic in Navi Mumbai")
 @section('meta_desc')Explore captivating images showcasing the expertise of Dr. Dhruv Patel, Orthopaedic, Joint Replacement, Arthroscopic & Trauma Surgeon and his team during orthopaedic surgeries in Navi Mumbai. @endsection
 
