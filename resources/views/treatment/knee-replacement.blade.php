@@ -15,7 +15,7 @@ Best Joint Replacement doctor in Vashi, best orthopaedic and Joint Knee Replacem
 <!--Page Title-->
 <section class="page-title page-title-2">
     <div class="auto-container">
-        <h2>Knee Robotic Replacement Surgery.</h2>
+        <h2>Knee Replacement Surgery</h2>
         <!-- <ul class="page-breadcrumb">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="services.html">Services</a></li>

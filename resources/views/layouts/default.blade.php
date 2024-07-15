@@ -3,9 +3,12 @@
 
 <head>
     
+       <title> {{ $title }} </title>
+       <meta name="description" content="@yield('meta_desc')">
+     <link rel="canonical" href="{{ url()->current() }}" />
+    
       @include('includes.head')
 
-       <title> {{ $title }} </title>
   @yield('meta_tags')
 
    
