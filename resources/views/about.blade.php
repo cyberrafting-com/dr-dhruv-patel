@@ -7,11 +7,6 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
     <meta name="keywords" content="@yield('meta_keywords')">
   <meta name="description" content="@yield('meta_desc')">
 
-
-
-
-
-
   
 @endsection
 
