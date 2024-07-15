@@ -3548,7 +3548,7 @@ img {
 .sidebar-widget {
     position: relative;
     margin-bottom: 30px;
-    padding-top:55px;
+    padding-top: 55px;
 }
 
 
@@ -8085,8 +8085,8 @@ li:before {
     padding-left: 0px;
 }
 .treatment-content li span {
-        font-weight: 500;
-    color:#1f2525;
+    font-weight: 500;
+    color: #1f2525;
     font-size: 19px;
     font-family: 'Roboto', sans-serif;
 }
@@ -8149,7 +8149,7 @@ h3.foot-logo-txt {
     font-weight: 400;
 }
 .title-img {
- padding-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 26px;
     color: #1b5378;
     font-weight: 500;
@@ -8157,7 +8157,7 @@ h3.foot-logo-txt {
 }
 .page-title h2 {
     position: relative;
-        color: #507204;
+    color: #507204;
     font-size: 29px;
     font-weight: 700;
     line-height: 1em;
@@ -8486,8 +8486,7 @@ ul.degree--list {
     margin-bottom: 10px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
-.review-txt-1 h3
-{
+.review-txt-1 h3 {
     font-weight: 700;
     padding: 10px 0px;
 }
@@ -8634,7 +8633,7 @@ span.accordion__caption {
     margin-bottom: 10px;
 }
 .know-more-btn a {
-       padding: 5px 15px 5px;
+    padding: 5px 15px 5px;
     font-size: 15px;
     border-radius: 9px;
     font-weight: 600;
@@ -8649,12 +8648,12 @@ span.accordion__caption {
     color: #fbfeff;
 }
 .know-more-btn {
-margin: 9px 0px 0px;
+    margin: 9px 0px 0px;
     width: 100%;
     display: flex;
 }
 .know-more-btn-set a {
-         padding: 5px 15px 5px;
+    padding: 5px 15px 5px;
     font-size: 15px;
     border-radius: 9px;
     font-weight: 600;
@@ -8669,16 +8668,14 @@ margin: 9px 0px 0px;
     color: #fbfeff;
 }
 .know-more-btn-set {
-margin: 9px 0px 0px;
+    margin: 9px 0px 0px;
     width: 100%;
     display: flex;
 }
 
 /* meet section css */
-.know-more-btn i
-{
-    float:right;
- 
+.know-more-btn i {
+    float: right;
     padding-top: 8px;
 }
 .main-set {
@@ -8779,18 +8776,15 @@ margin: 9px 0px 0px;
 .card---set {
     display: flex;
 }
-.benefits--set img
-{
-        padding: 5px;
+.benefits--set img {
+    padding: 5px;
     border: 1px solid #bcda75;
 }
-.list-style-one .type-knee
-{
-    width:13%;
+.list-style-one .type-knee {
+    width: 13%;
     margin-right: 20px;
 }
-.total--knee
-{
+.total--knee {
     display: flex;
     background: antiquewhite;
     background: linear-gradient(9deg, rgb(216 235 174 / 58%) 0%, rgb(255 255 255) 65%);
@@ -8801,17 +8795,20 @@ margin: 9px 0px 0px;
     align-items: center;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
 }
+
 /* meet section css end */
 @media only screen and (max-width: 767px) {
     .sidebar-widget {
-    position: relative;
-    margin-bottom: 30px;
-    padding-top:20px;
-}
+        position: relative;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+    
     .list-style-one .type-knee {
-    width: 29%;
-    margin-right: 20px;
-}
+        width: 29%;
+        margin-right: 20px;
+    }
+    
     .welcome-section .content-column h1 {
         font-size: 25px;
         padding-top: 20px;
