@@ -1,5 +1,5 @@
-@php($title = "Best Orthopaedic & Joint Replacement Surgeon in Navi Mumbai")
-@section('meta_desc')Dr. Dhruv Patel is the best Orthopaedic, Joint Replacement, Arthroscopic & Trauma Surgeon in Navi Mumbai, Vashi & Belapur committed to improve the lives of patients. @endsection
+@php($title = "Book an Appointment with Dr. Dhruv Patel - Top Orthopaedic Doctor in Navi Mumbai")
+@section('meta_desc')Book an appointment with Dr. Dhruv Patel, a leading orthopaedic doctor in Navi Mumbai, specializing in joint replacement, arthroscopic, and trauma surgeries. Contact us today! @endsection
 @extends('layouts.default')
 @section('content')
 

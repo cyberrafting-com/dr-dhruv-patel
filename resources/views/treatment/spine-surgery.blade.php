@@ -1,5 +1,5 @@
-@php($title = "Best Spine Surgery Specialist in Navi Mumbai, Dr. Dhruv Patel")
-@section('meta_desc')Dr. Dhruv Patel is the best Spine Surgery Specialist Surgeon in Navi Mumbai, Vashi & Belapur committed to improve the lives of patients with care at affordable cost. @endsection
+@php($title = "Best Spine Surgeon in Navi Mumbai, Vashi & Belapur - Dr. Dhruv Patel")
+@section('meta_desc')Dr. Dhruv Patel is the best spine surgeon in Navi Mumbai, Vashi & Belapur, offering expert care and advanced surgical treatments for spine conditions. @endsection
 
 @section('meta_keywords')Best Spine Surgery Specialist doctor in Navi Mumbai, best orthopaedic and Joint Replacement doctor in Navi Mumbai,
 Best Spine Surgery Specialist doctor in Vashi, best orthopaedic and Joint Replacement doctor in Vashi, Best Spine Surgery Specialist doctor in Belapur, best orthopaedic and Joint Replacement doctor in Belapur.  @endsection 

@@ -1,5 +1,9 @@
-@php($title = "Contact Dr. Dhruv Patel at Arti Polyclinic, Vashi, Navi Mumbai")
-@section('meta_desc')Contact Dr. Dhruv Patel at Arti Polyclinic for the best Orthopaedic, Joint Replacement, Arthroscopic & Trauma Surgery in Navi Mumbai, Vashi & Belapur at affordable cost. @endsection
+@php($title = "Contact : Dr. Dhruv Patel's OrthoCare Clinic, Navi Mumbai")
+
+
+
+
+@section('meta_desc')Contact Dr. Dhruv Patel's OrthoCare Clinic for the best Orthopaedic, Joint Replacement, Arthroscopic & Trauma Surgery in Navi Mumbai, Vashi & Belapur at affordable cost. @endsection
 
 @section('meta_keywords')Best Orthopedic doctor in Navi mumbai, Best Orthopaedic doctor in Navi Mumbai, best joint replacement doctor in Navi Mumbai, Best arthroscopy doctor in Navi Mumbai, best arthroscopic doctor in Navi Mumbai, best Trauma and Fracture surgery doctor in Navi Mumbai, best spine surgery doctor in Navi Mumbai, best joint pain doctor in Navi Mumbai, best arthritis doctor in navi mumbai, best sport injury doctor in navi mumbai, best sport injuries doctor in navi mumbai, Best Orthopedic surgeon in Navi mumbai, Best Orthopaedic surgeon in Navi Mumbai, best joint replacement surgeon in Navi Mumbai, Best arthroscopy surgeon in Navi Mumbai, best arthroscopic surgeon in Navi Mumbai, best Trauma and Fracture surgery surgeon in Navi Mumbai, best spine surgery surgeon in Navi Mumbai, best joint pain surgeon in Navi Mumbai, best arthritis surgeon in navi mumbai, best sport injury surgeon in navi mumbai, best sport injuries surgeon in navi mumbai,
 Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint replacement doctor in Vashi, Best arthroscopy doctor in Vashi, best arthroscopic doctor in Vashi, best Trauma and Fracture surgery doctor in Vashi, best spine surgery doctor in Vashi, best joint pain doctor in Vashi, best arthritis doctor in Vashi, best sport injury doctor in Vashi, best sport injuries doctor in Vashi, Best Orthopedic surgeon in Vashi, Best Orthopaedic surgeon in Vashi, best joint replacement surgeon in Vashi, Best arthroscopy surgeon in Vashi, best arthroscopic surgeon in Vashi, best Trauma and Fracture surgery surgeon in Vashi, best spine surgery surgeon in Vashi, best joint pain surgeon in Vashi, best arthritis surgeon in Vashi, best sport injury surgeon in Vashi, best sport injuries surgeon in Vashi, Best Orthopedic doctor in Belapur, Best Orthopaedic doctor in Belapur, best joint replacement doctor in Belapur, Best arthroscopy doctor in Belapur, best arthroscopic doctor in Belapur, best Trauma and Fracture surgery doctor in Belapur, best spine surgery doctor in Belapur, best joint pain doctor in Belapur, best arthritis doctor in Belapur, best sport injury doctor in Belapur, best sport injuries doctor in Belapur, Best Orthopedic surgeon in Belapur, Best Orthopaedic surgeon in Belapur, best joint replacement surgeon in Belapur, Best arthroscopy surgeon in Belapur, best arthroscopic surgeon in Belapur, best Trauma and Fracture surgery surgeon in Belapur, best spine surgery surgeon in Belapur, best joint pain surgeon in Belapur, best arthritis surgeon in Belapur, best sport injury surgeon in Belapur, best sport injuries surgeon in Belapur @endsection 
@@ -10,6 +14,14 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
 
 @extends('layouts.default')
 @section('content')
+   <!--Page Title-->
+        <section class="page-title" style="background-image:url(images/background/orthopedic-banner.jpg)">
+            <div class="auto-container">
+                <h2>Contact</h2>
+           
+            </div>
+        </section>
+        <!--End Page Title-->
         <section class="contact-d">
             <div class="container">
                  <div class="sec-title">
@@ -112,6 +124,7 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
 NAVI MUMBAI">
 
                             </div>
+                            <br>
                                 <h2>SHREE HOSPITAL AND ICU, <br> NAVI MUMBAI </h2>
                                 <i class="fa-sharp fa-solid fa-location-dot"></i>
                                 <p>2nd Floor, Raikar Bhavan Nr. Navaratna Hotel, Pedestrian Path, Sector 17, Vashi, Navi Mumbai, Maharashtra 400703</p>
@@ -126,7 +139,7 @@ NAVI MUMBAI">
                                 <img src="{{ asset('/resources/assets/images/icons/jairaj-logo.jpg') }}" alt="DR. JAIRAJ'S HOSPITAL, NAVI MUMBAI">
                             </div>
                     
-
+    <br>
                                 <!-- <h5>HONORARY ORTHOPEDIC SURGEON</h5> -->
 
                                 <h2>DR. JAIRAJS HOSPITAL, <br>  NAVI MUMBAI</h2>
@@ -148,8 +161,9 @@ NAVI MUMBAI">
                    
 
                                 <!-- <h5>HIP AND KNEE REPLACEMENT SURGEON</h5> -->
+                                    <br>
 
-                                <h3>MPCT HOSPITAL, <br>  NAVI MUMBAI</h3>
+                                <h2>MPCT HOSPITAL, <br>  NAVI MUMBAI</h2>
                                 <i class="fa-sharp fa-solid fa-location-dot"></i>
                                 <p>C7, Budhyadev Mandir Marg, Sector 4, Sanpada, Navi Mumbai, Maharashtra 400705</p>
                     
