@@ -12,7 +12,7 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
 
         <!--Main Slider-->
  
-    
+    <div class="desk-view">
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
   <!--<ol class="carousel-indicators">-->
   <!--  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>-->
@@ -37,6 +37,11 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+    <div class="mobile-view">
+        <img src="{{asset('/resources/assets/images/main-slider/dr-dhruv-patel-mobile-view-banner.jpg') }}" alt="">
+        </div>
+
 
  
         <!--<section class="banner-set">-->
@@ -47,13 +52,8 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
         <!--    </div>-->
         <!--</section>-->
         
-        
-    
-
-
-
       
-        <!--End Main Slider-->
+        
         <!--Welcome Section-->
         <section class="welcome-section">
             <div class="container">

@@ -203,33 +203,32 @@
 
 @media only screen and (max-width: 767px) {
     .form-group.form-txt {
-    width: 100%;
-}
-.form-group.msg-txt{
-     width: 100%;
-}
+        width: 100%;
+    }
+    .form-group.msg-txt {
+        width: 100%;
+    }
     .appointment-form.single {
-    padding: 25px 15px;
-}
+        padding: 25px 15px;
+    }
     .blog-cat {
-    padding-left: 0px;
-}
-    .doc-name1{
+        padding-left: 0px;
+    }
+    .doc-name1 {
         font-size: 25px;
     }
-    .about-section .content-column h2{
-   font-size: 17px;
-    font-weight: 600;
-    line-height: 25px;
-}
-    .btn-book-header{
+    .about-section .content-column h2 {
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    .btn-book-header {
         color: #8cc50b !important;
         margin-top: 0px;
     }
-    .contact-in
-    {
+    .contact-in {
         min-width: 100%;
-            margin-bottom: 10px;
+        margin-bottom: 10px;
     }
     .treatment-img img {
         margin-bottom: 26px;
@@ -331,7 +330,6 @@
         z-index: 12;
         border: 1px solid #55b6c7;
         float: none;
-       
         border-radius: 0px;
         background: #55b6c7;
     }
@@ -501,7 +499,8 @@
         background-image: none !important;
     }
     .page-title h1 {
-        font-size: 36px;
+        font-size: 25px;
+        line-height: 1.5em;
     }
     .sidebar-page-container .comments-area .comment-box .author-thumb,
     .shop-single .comments-area .comment-box .author-thumb {
@@ -630,11 +629,10 @@
         font-size: 17px;
         line-height: 22px;
     }
-    
     .auto-container {
         padding: 0px 15px;
-}
-    .welcome-section .content-column h1{
+    }
+    .welcome-section .content-column h1 {
         font-size: 25px;
     }
     .fluid-section-one .content-column .inner-box {
@@ -723,13 +721,14 @@
     .main-header .header-top .top-left .links li {
         /*padding-right: 0px;*/
         border: 0px;
-        margin-top:10px;
+        margin-top: 10px;
     }
     .main-slider .solution,
     .main-slider h2 .pain {
         padding: 5px 5px;
     }
 }
+
 @media (max-width: 768px) {
     .dropdown.custom:hover .dropdown-menu {
         visibility: visible;
@@ -739,5 +738,23 @@
     li.dropdown.custom {
         height: 100%;
         overflow: auto;
+    }
+    .services-single h3 {
+        position: relative;
+        color: #242424;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 35px;
+        margin-bottom: 22px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .span.accordion__caption {
+        position: relative;
+        padding-left: 1px;
+        margin-bottom: 12px;
+        color: #000;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
     }
 }

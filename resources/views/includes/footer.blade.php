@@ -8,7 +8,10 @@
                 <!--big column-->
                 <div class="big-column">
                     
+                    
                     <div class="row">
+
+
 
                         <div class="footer-column col-md-3">
                             <div class="footer-widget links-widget">
@@ -16,8 +19,9 @@
                                   
                                 <div class="widget-content">
                                      <a href="{{ route('home')}}"><img   src="{{ asset('/resources/assets/images/logo.png') }}" alt=""></a>
-                                     <h3 class="foot-logo-txt"> Dr. Dhruv Patel is a leading Orthopedic  Doctor & Joint Replacement Surgeon in Navi Mumbai & Solapur at various Hospitals.</h3>
+                                     <h3 class="foot-logo-txt"> Dr. Dhruv Patel is an Orthopedic & Joint Replacement Surgeon at various Hospitals in Navi Mumbai & Solapur.</h3>
                                   
+                                   
                                 </div>
                             </div>
                         </div>

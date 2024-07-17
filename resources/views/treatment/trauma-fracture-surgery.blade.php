@@ -1,5 +1,5 @@
-@php($title = "Best Trauma & Fracture Surgeon in Navi Mumbai, Vashi, Belapur.")
-@section('meta_desc')Dr. Dhruv Patel is the best Trauma and Fracture Doctor and Specialist in Navi Mumbai, Vashi & Belapur, excellence in treating sports injuries and fractures. @endsection
+@php($title = "Best Trauma & Fracture Surgeon in Navi Mumbai, Vashi, Belapur | Dr. Dhruv Patel")
+@section('meta_desc')Dr. Dhruv Patel is one of the best doctors for bone fracture treatment in Navi Mumbai, Vashi & Belapur, offering expert care and advanced treatment options. @endsection
 
 @section('meta_keywords') Best Trauma & Fracture doctor in Navi Mumbai, best orthopaedic and Joint Replacement doctor in Navi Mumbai,
 Best Trauma & Fracture doctor in Vashi, best orthopaedic and Joint Replacement doctor in Vashi, Best Trauma & Fracture doctor in Belapur, best orthopaedic and Joint Replacement doctor in Belapur.  @endsection 

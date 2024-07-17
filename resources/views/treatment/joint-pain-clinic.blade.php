@@ -1,5 +1,5 @@
-@php($title = "Best Joint Pain Doctor / Surgeon in Navi Mumbai | Dr. Dhruv Patel")
-@section('meta_desc')Dr. Dhruv Patel is the best Orthopaedic Surgeon for Joint Pain Relief in Navi Mumbai, Vashi & Belapur committed to improve the lives of patients with care at affordable cost. @endsection
+@php($title = "Best Doctor for Joint Pain in Navi Mumbai | Dr. Dhruv Patel")
+@section('meta_desc')Dr. Dhruv Patel is the best doctor for joint pain relief in Navi Mumbai, Vashi & Belapur, providing expert care and effective treatment options. @endsection
 
 @section('meta_keywords')Best Joint Pain doctor in Navi Mumbai, best orthopaedic and Joint Replacement doctor in Navi Mumbai,Best Joint Pain doctor in Vashi, best orthopaedic and Joint Replacement doctor in Vashi, Best Joint Pain doctor in Belapur, best orthopaedic and Joint Replacement doctor in Belapur. @endsection
 @section('meta_tags')

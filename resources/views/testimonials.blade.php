@@ -1,5 +1,5 @@
-@php($title = "Contact Dr. Dhruv Patel at Arti Polyclinic, Vashi, Navi Mumbai")
-@section('meta_desc')Contact Dr. Dhruv Patel at Arti Polyclinic for the best Orthopaedic, Joint Replacement, Arthroscopic & Trauma Surgery in Navi Mumbai, Vashi & Belapur at affordable cost. @endsection
+@php($title = "Patient Testimonials - Dr. Dhruv Patel, Orthopaedic Doctor in Navi Mumbai")
+@section('meta_desc')Read testimonials from patients of Dr. Dhruv Patel, a trusted orthopaedic doctor in Navi Mumbai, known for his expertise in joint replacement, arthroscopic, and trauma surgeries. @endsection
 
 @section('meta_keywords')Best Orthopedic doctor in Navi mumbai, Best Orthopaedic doctor in Navi Mumbai, best joint replacement doctor in Navi Mumbai, Best arthroscopy doctor in Navi Mumbai, best arthroscopic doctor in Navi Mumbai, best Trauma and Fracture surgery doctor in Navi Mumbai, best spine surgery doctor in Navi Mumbai, best joint pain doctor in Navi Mumbai, best arthritis doctor in navi mumbai, best sport injury doctor in navi mumbai, best sport injuries doctor in navi mumbai, Best Orthopedic surgeon in Navi mumbai, Best Orthopaedic surgeon in Navi Mumbai, best joint replacement surgeon in Navi Mumbai, Best arthroscopy surgeon in Navi Mumbai, best arthroscopic surgeon in Navi Mumbai, best Trauma and Fracture surgery surgeon in Navi Mumbai, best spine surgery surgeon in Navi Mumbai, best joint pain surgeon in Navi Mumbai, best arthritis surgeon in navi mumbai, best sport injury surgeon in navi mumbai, best sport injuries surgeon in navi mumbai,
 Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint replacement doctor in Vashi, Best arthroscopy doctor in Vashi, best arthroscopic doctor in Vashi, best Trauma and Fracture surgery doctor in Vashi, best spine surgery doctor in Vashi, best joint pain doctor in Vashi, best arthritis doctor in Vashi, best sport injury doctor in Vashi, best sport injuries doctor in Vashi, Best Orthopedic surgeon in Vashi, Best Orthopaedic surgeon in Vashi, best joint replacement surgeon in Vashi, Best arthroscopy surgeon in Vashi, best arthroscopic surgeon in Vashi, best Trauma and Fracture surgery surgeon in Vashi, best spine surgery surgeon in Vashi, best joint pain surgeon in Vashi, best arthritis surgeon in Vashi, best sport injury surgeon in Vashi, best sport injuries surgeon in Vashi, Best Orthopedic doctor in Belapur, Best Orthopaedic doctor in Belapur, best joint replacement doctor in Belapur, Best arthroscopy doctor in Belapur, best arthroscopic doctor in Belapur, best Trauma and Fracture surgery doctor in Belapur, best spine surgery doctor in Belapur, best joint pain doctor in Belapur, best arthritis doctor in Belapur, best sport injury doctor in Belapur, best sport injuries doctor in Belapur, Best Orthopedic surgeon in Belapur, Best Orthopaedic surgeon in Belapur, best joint replacement surgeon in Belapur, Best arthroscopy surgeon in Belapur, best arthroscopic surgeon in Belapur, best Trauma and Fracture surgery surgeon in Belapur, best spine surgery surgeon in Belapur, best joint pain surgeon in Belapur, best arthritis surgeon in Belapur, best sport injury surgeon in Belapur, best sport injuries surgeon in Belapur @endsection 
@@ -21,12 +21,20 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
 
 
         <!--</section>-->
+          <!--Page Title-->
+        <section class="page-title" style="background-image:url(images/background/orthopedic-banner.jpg)">
+            <div class="auto-container">
+                <h2>Testimonials</h2>
+           
+            </div>
+        </section>
+        <!--End Page Title-->
         
         <section class="testimonial-area" id="testimonial">
             <div class="container">
-                <div class="testimonial-head">
-                    <h3>Testimonials</h3>
-                </div>
+                <!--<div class="testimonial-head">-->
+                <!--    <h3>Testimonials</h3>-->
+                <!--</div>-->
                 <!---->
                       <div class="row">
                     <div class="col-md-12">
