@@ -12,10 +12,7 @@ Best Orthopedic doctor in Vashi, Best Orthopaedic doctor in Vashi, best joint re
         <section class="page-title" style="background-image:url(images/background/orthopedic-banner.jpg)">
             <div class="auto-container">
                 <h1>Orthopaedic Doctor in Navi Mumbai - Dr. Dhruv Patel</h1>
-                <!-- <ul class="page-breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li>About</li>
-                </ul> -->
+              
             </div>
         </section>
         <!--End Page Title-->
