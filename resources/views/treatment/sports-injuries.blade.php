@@ -1,5 +1,5 @@
-@php($title = "Best Sport Injury Specialist in Navi Mumbai, Dr. Dhruv Patel.")
-@section('meta_desc')Dr. Dhruv Patel is the best Orthopaedic Surgeon & Sports Injury Specialists in Navi Mumbai, Vashi & Belapur committed to improve the lives of patients with care at affordable cost. @endsection
+@php($title = "Best Sport Injury Specialist in Navi Mumbai, Vashi & Belapur | Dr. Dhruv Patel")
+@section('meta_desc')Dr. Dhruv Patel is one of the best sports injury specialists in Navi Mumbai, Vashi & Belapur, providing expert care and advanced treatment for athletes. @endsection
 
 @section('meta_keywords') Best Sport Injury doctor in Navi Mumbai, best orthopaedic and Joint Replacement doctor in Navi Mumbai,
 Best Sport Injury doctor in Vashi, best orthopaedic and Joint Replacement doctor in Vashi, Best Sport Injury doctor in Belapur, best orthopaedic and Joint Replacement doctor in Belapur.  @endsection 
